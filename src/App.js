@@ -42,7 +42,8 @@ console.log(this.state.info)
             </div>
 
             <div className="info">
-              <img className="city-info"/>
+              <img className="city-info" src={`https://openweathermap.org/img/wn/${this.state.info.weather[0].icon}@2x.png`} alt={this.state.info.weather[0].description} />
+            <p>{this.state.info.weather[0].description}</p>
             </div>
 
              </div>
