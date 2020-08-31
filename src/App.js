@@ -21,14 +21,19 @@ console.log(this.state.info)
     
     render(){
         return(
+         
+
+
+
             <div className="main-container">
+          
               <form onSubmit={this.handleSubmit}>
-              <input type="text" className="search" placeholder="search" onChange={this.handleChange} value={this.state.value} />
+              <input type="text" className="search" placeholder="Search the name of the city" onChange={this.handleChange} value={this.state.value} />
             
              </form>
            {this.state.info.main&&(
              <div className="city">
-<h2 className="city-name">
+            <h2 className="city-name">
            <span>{this.state.info.name}</span>
            <sup>{this.state.info.sys.country}</sup>
          
@@ -47,6 +52,7 @@ console.log(this.state.info)
            )}
 
             </div>
+          
         )
     }
 }

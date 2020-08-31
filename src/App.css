@@ -7,10 +7,9 @@ html, body, #root {
 }
 
 .main-container {
-    background: linear-gradient( rgba(122, 69, 69, 0.3), rgba(0, 0, 0, 0.418) ), url('https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_111939795.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://wallpaperboat.com/wp-content/uploads/2020/04/minimalist-4k-wallpaper-full-hd.jpg');
     background-size: cover;
     background-position: center;
-
 }
 
 .main-container {
@@ -27,7 +26,7 @@ html, body, #root {
     border-radius: 20px;
     border: none;
     margin-bottom: 5%;
-    background: rgba(34, 33, 33, 0.85);
+    background: rgba(250, 250, 250, 0.85);
 }
 
 .city {
@@ -38,7 +37,7 @@ html, body, #root {
     padding: 40px 8%;
     border-radius: 20px;
     background: rgba(250, 250, 250, 0.85);
-    box-shadow: 10px 10px 5px 0px rgba(51, 21, 21, 0.404);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
 }
 
 p {
@@ -91,13 +90,4 @@ p {
     .city {
         padding: 40px 20%;
     }
-}
-
-.btn{
-    border: 0px;
-    padding: 10px;
-    border-radius: 20px;
-    margin-left: 18%;
-    background: #0a1f44;
-
 }
