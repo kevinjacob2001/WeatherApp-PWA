@@ -91,3 +91,12 @@ p {
         padding: 40px 20%;
     }
 }
+
+.btn{
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 18%;
+    background: #0a1f44;
+
+}
