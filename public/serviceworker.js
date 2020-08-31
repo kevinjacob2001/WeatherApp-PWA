@@ -31,7 +31,7 @@ event.respondWith(
 //Activate the serviceWorker
 self.addEventListener("activate",(event)=>{
 const cacheWhiteList=[];
-cacheWhiteList.put(CACHE_NAME);
+cacheWhiteList.push(CACHE_NAME);
 event.waitUntil(
     caches.keys()
     .then((cacheNames)=>Promise.all(
